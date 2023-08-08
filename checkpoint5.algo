@@ -14,7 +14,7 @@ BEGIN
         IF (char='') THEN
             nb_words:=nb_words+1;
         END_IF
-        IF (char='e'or 'a' or 'i' or 'o' 'u') THEN
+        IF (char='e'or 'a' or 'i' or 'o' or 'u') THEN
             nb_vowels:=nb_vowels+1;
         END_IF
 
